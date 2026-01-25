@@ -1,3 +1,12 @@
-[submodule "pruned"]
-	path = pruned
-	url = https://github.com/dionysuzx/pruned.git
+[submodule "kittynode"]
+	path = kittynode
+	url = git@github.com:futurekittylabs/kittynode.git
+	shallow = true
+[submodule "futurekittylabs-web"]
+	path = futurekittylabs-web
+	url = git@github.com:futurekittylabs/website.git
+	shallow = true
+[submodule "_pruned"]
+	path = _pruned
+	url = git@github.com:dionysuzx/pruned.git
+	shallow = true
