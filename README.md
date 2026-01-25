@@ -1,3 +1,3 @@
-# trunk
+# bonzai 
 
-A monorepo.
+A personal monorepo.
