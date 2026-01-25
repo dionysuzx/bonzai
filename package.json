@@ -1,6 +1,7 @@
 {
-  "name": "trunk",
+  "name": "bonzai",
   "private": true,
+  "workspaces": ["dionysuz", "pruned/*"],
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
   }

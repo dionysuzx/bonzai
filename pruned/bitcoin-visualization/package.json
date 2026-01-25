@@ -1,5 +1,6 @@
 {
   "name": "bitcoin-visualization",
+  "homepage": "https://bitcoin-visualization.pages.dev",
   "private": true,
   "version": "0.0.1",
   "type": "module",

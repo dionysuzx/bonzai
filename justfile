@@ -1,12 +1,7 @@
-# lint js
-lint-js:
-  pnpm -r format-lint
+# start the website
+website:
+    bun --cwd dionysuz dev --open
 
-# lint and fix js
-lint-js-fix:
-  pnpm -r format-lint:fix
-
-# update all toolchains and dependencies
+# update active project dependencies to latest
 update:
-  pnpm self-update
-  pnpm up -r
+    bun update --latest --cwd dionysuz

@@ -1,5 +1,6 @@
 {
-  "name": "tao-te-ching",
+  "name": "enchiridion",
+  "homepage": "https://enchiridion.pages.dev",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,8 +13,10 @@
     "format-lint:fix": "biome format . --fix && biome lint . --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.6.0",
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/svelte": "^5.7.3",
     "astro": "^4.16.18",
+    "svelte": "^4.2.19",
     "typescript": "^5.7.2"
   }
 }

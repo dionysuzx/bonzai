@@ -1,5 +1,6 @@
 {
-  "name": "dionysuz",
+  "name": "dionysuz-website",
+  "homepage": "https://dionysuz.pages.dev",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
