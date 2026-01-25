@@ -1,7 +1,7 @@
 # start the website
 website:
-    bun --cwd dionysuz dev --open
+    cd dionysuz && bun dev --open
 
 # update active project dependencies to latest
 update:
-    bun update --latest --cwd dionysuz
+    cd dionysuz && bun update --latest
