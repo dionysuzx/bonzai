@@ -8,10 +8,6 @@ export default defineConfig({
     starlight({
       title: "dionysuz",
       customCss: ["./src/styles/custom.css"],
-      social: {
-        github: "https://github.com/dionysuzx",
-        "x.com": "https://x.com/dionysuzx",
-      },
       pagefind: false,
     }),
   ],
