@@ -9,8 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format-lint": "biome format . && biome lint .",
-    "format-lint:fix": "biome format . --fix && biome lint . --fix"
+    "format-lint": "biome check .",
+    "format-lint:fix": "biome check . --write"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.37.4",
