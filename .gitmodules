@@ -10,3 +10,6 @@
 	path = _pruned
 	url = git@github.com:dionysuzx/pruned.git
 	shallow = true
+[submodule "dionysuz-web"]
+	path = dionysuz-web
+	url = git@github.com:dionysuzx/dionysuz-web.git
