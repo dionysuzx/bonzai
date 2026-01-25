@@ -1,0 +1,3 @@
+[submodule "pruned"]
+	path = pruned
+	url = git@github.com:dionysuzx/pruned.git
