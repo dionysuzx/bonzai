@@ -1,8 +1,6 @@
 # bonzai
 
-A personal monorepo.
-
-Gitignore ignores everything except this README and the justfile. Projects are independent repos, cloned locally as needed. The justfile is used to manipulate these projects locally.
+A personal monorepo. `.gitignore` ignores everything except this README and the justfile. Projects are independent repos cloned locally under bonzai. The justfile is used to manipulate these projects within bonzai.
 
 ## Projects
 
@@ -15,9 +13,8 @@ Gitignore ignores everything except this README and the justfile. Projects are i
 
 ```bash
 git clone git@github.com:dionysuzx/bonzai.git && cd bonzai
-
-git clone git@github.com:dionysuzx/pruned.git _pruned && \
-git clone git@github.com:dionysuzx/dionysuz-web.git && \
-git clone git@github.com:futurekittylabs/website.git futurekittylabs-web && \
+git clone git@github.com:dionysuzx/pruned.git _pruned
+git clone git@github.com:dionysuzx/dionysuz-web.git
+git clone git@github.com:futurekittylabs/website.git futurekittylabs-web
 git clone git@github.com:futurekittylabs/kittynode.git
 ```
