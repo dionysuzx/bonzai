@@ -1,27 +1,7 @@
-# Operating system files
-.DS_Store
-Thumbs.db
+# Ignore everything
+*
 
-# Dependency directories
-node_modules
-
-# Build outputs
-dist
-build
-target
-
-# Generated files
-.astro
-.svelte-kit
-gen
-!**/gen-overrides/**
-
-# Environment variables
-.env
-.env.*
-!.env.example
-!.env.test
-
-# Vite
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
+# Except these
+!.gitignore
+!README.md
+!justfile
