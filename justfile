@@ -1,15 +1,18 @@
-# start the website
-website:
-    cd dionysuz && bun dev --open
+# list commands
+default:
+    @just --list
 
-# lint the javascript code
-lint-js:
-    cd dionysuz && bun format-lint
+# clone all projects
+setup:
+    git clone git@github.com:dionysuzx/pruned.git _pruned || true
+    git clone git@github.com:dionysuzx/dionysuz-web.git || true
+    git clone git@github.com:futurekittylabs/website.git futurekittylabs-web || true
+    git clone git@github.com:futurekittylabs/kittynode.git || true
 
-# lint and fix the javascript code
-lint-js-fix:
-    cd dionysuz && bun format-lint:fix
+# run dionysuz-web
+dionysuz-web:
+    cd dionysuz-web && bun dev --open
 
-# update active project dependencies to latest
-update:
-    cd dionysuz && bun update --latest
+# run futurekittylabs-web
+futurekittylabs-web:
+    cd futurekittylabs-web && bun dev --open
