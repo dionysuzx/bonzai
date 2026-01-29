@@ -6,6 +6,7 @@ A personal monorepo. `.gitignore` ignores everything except this README and the 
 
 - [_pruned](https://github.com/dionysuzx/pruned)
 - [dionysuz-web](https://github.com/dionysuzx/dionysuz-web)
+- [forkcast](https://github.com/dionysuzx/forkcast)
 - [futurekittylabs-web](https://github.com/futurekittylabs/website)
 - [kittynode](https://github.com/futurekittylabs/kittynode)
 
