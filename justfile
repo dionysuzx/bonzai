@@ -12,12 +12,12 @@ setup:
 
 # run dionysuz-web
 dionysuz-web:
-    cd dionysuz-web && bun dev --open
+    cd dionysuz-web && bun dev
 
 # run forkcast
 forkcast:
-    cd forkcast && bun dev --open
+    cd forkcast && bun dev
 
 # run futurekittylabs-web
 futurekittylabs-web:
-    cd futurekittylabs-web && bun dev --open
+    cd futurekittylabs-web && bun dev
